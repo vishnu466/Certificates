@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        body{
+           background-color: black;
+        }
+        .rocket{
+            /* background-color: aliceblue; */
+            rotate: 90deg;
+            height: 100%;  
+        }
+        .orbit
+        {
+            height: 550px;
+            width: 150px;
+            border-radius: 50%;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            animation: rotate 2s infinite linear;
+        }
+        @keyframes rotate {
+            100%
+            {
+                transform: rotate(360deg);
+            }
+            
+        }
+
+        @keyframes y-axis {
+            100% {transform: rotate(360deg);}
+        }
+
+        @keyframes rot {
+            0% {transform: rotate(0deg)}
+            100% {transform: rotate(0deg)}
+        }
+
+        .wrapper{
+            /* animation: y-axis 3s ease-in-out; */
+        }
+
+        .wrapper2{
+            /* animation: rot 2s; */
+
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="orbit">
+        <div>
+            <img class="rocket" src="/images/rocket.png" width="200px">
+
+
+        </div>
+    </div>
+    
+</body>
+</html>

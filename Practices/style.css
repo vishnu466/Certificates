@@ -1,0 +1,34 @@
+div:hover p{
+    display:block;
+}
+div{
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 1px 10px 6px red,0px 0px 6px orange,0px 0px 6px yellow;
+    font-family: 'audiowide';
+}
+table,tr,td,th{
+    border: 1px solid;
+}
+p{
+    display: none;
+    font-size: 30px;
+    padding: 40%;
+    color: tomato;
+    background-size:80%;
+    background-repeat:  no-repeat;
+    background-image: url("images/classic350.jpg");
+    border:2px solid black;
+    background-position:center;
+    
+}
+h1{
+    border: 2px solid red;
+    border-radius: 8px;
+    padding:40px;
+   
+    text-align: center;
+    background-color: rgb(243, 191, 172) ;
+    background-image: linear-gradient(red,orange,yellow
+    );
+}
